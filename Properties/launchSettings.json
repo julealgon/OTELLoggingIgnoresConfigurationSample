@@ -1,0 +1,19 @@
+﻿{
+  "profiles": {
+    "OTELLoggingIgnoresConfigurationSample (EnvVars)": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "EnvVars",
+        "OTEL_EXPORTER_OTLP_ENDPOINT": "http://192.168.0.0:4317"
+      }
+    },
+    "OTELLoggingIgnoresConfigurationSample (AppSettings)": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "AppSettings"
+      }
+    }
+  }
+}
